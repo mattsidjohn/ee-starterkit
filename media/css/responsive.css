@@ -1,0 +1,242 @@
+/*----------------------------------------------------
+	Title: 		Responsive CSS
+	Author:		@thinmatt
+----------------------------------------------------*/
+/* reset styles 
+--------------------------------------------- */
+section,
+nav,
+hgroup,
+header,
+footer,
+figure,
+dialog,
+aside,
+article,
+td,
+th,
+tr,
+thead,
+tfoot,
+tbody,
+caption,
+table,
+legend,
+label,
+form,
+fieldset,
+li,
+ul,
+ol,
+dd,
+dt,
+dl,
+q,
+img,
+em,
+dfn,
+del,
+code,
+address,
+acronym,
+abbr,
+a,
+pre,
+blockquote,
+p,
+h6,
+h5,
+h4,
+h3,
+h2,
+h1,
+iframe,
+object,
+span,
+div,
+body,
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+section,
+nav,
+hgroup,
+header,
+footer,
+figure,
+dialog,
+aside,
+article {
+  display: block;
+}
+body {
+  line-height: 1.5;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th, caption {
+  text-align: left;
+  font-weight: normal;
+}
+th, td, table {
+  vertical-align: middle;
+}
+q:after,
+q:before,
+blockquote:after,
+blockquote:before {
+  content: "";
+}
+q, blockquote {
+  quotes: "" "";
+}
+a img {
+  border: none;
+}
+/* Base Framework
+---------------------------------------------------- */
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.no-marg {
+  margin: 0px !important;
+}
+.top-marg {
+  margin-top: 40px !important;
+}
+.center {
+  text-align: center !important;
+}
+strong, .strong {
+  font-weight: bold;
+}
+strong em, .strong em {
+  font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+em, .em {
+  font-style: italic;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.small {
+  font-size: 12px;
+}
+.wrap {
+  float: left;
+  width: 100%;
+}
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+hr {
+  border: 0px;
+  border-top: 1px solid #ddd;
+  clear: both;
+  margin: 22px 0px;
+}
+/* text Styles
+--------------------------------------------- */
+/* Form styles 
+--------------------------------------------- */
+label.l1, form dl dt {
+  clear: both;
+  color: #475c0b;
+  display: block;
+  text-align: center;
+  text-shadow: #f2ffbc 0 2px 1px;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 20px;
+}
+textarea, select {
+  background-color: #fff;
+  border: 1px solid #bbb;
+}
+input[type=text],
+input[type=email],
+input[type=password],
+input.i1,
+input.i2,
+input.long {
+  background: #fff;
+  border: 1px solid #8bae1f;
+  color: #555p;
+  display: inline-block;
+  height: 40px;
+  margin: 20px 0px 30px;
+  padding: 5px 10px;
+  font-size: 24px;
+  line-height: 16px;
+}
+input[type=text]:focus,
+input[type=password]:focus,
+input.text:focus,
+input.title:focus,
+textarea:focus,
+select:focus {
+  border-color: #666;
+}
+input.i1 {
+  border-radius: 5px;
+  width: 270px;
+}
+input.discount, input.short {
+  margin: 5px 0px !important;
+  width: 50px;
+}
+select.dd {
+  margin: 15px 20px 15px 0px;
+}
+textarea.t1 {
+  background: white;
+  border: 1px solid #d5d5d5 !important;
+  color: #5a595b;
+  display: inline-block;
+  height: 150px;
+  margin: 10px 0px 20px;
+  padding: 3px 5px;
+  font-size: 13px;
+  width: 308px;
+}
+input.btn {
+  background: transparent url(../img/sprite-mobile-mstr.png) no-repeat top right;
+  border: 0px;
+  cursor: pointer;
+  color: #e38120;
+  display: block;
+  height: 71px;
+  margin: 0px auto;
+  text-shadow: #fff7c7 0 2px 1px;
+  width: 216px;
+  font: bold 26px/73px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+}
+input.btn:active {
+  background: transparent url(../img/sprite-mobile-mstr.png) no-repeat top right;
+  margin: 2px auto 0px;
+}
+/* Responsive styles 
+--------------------------------------------- */
+@media screen and (min-width: 1024px) {
+  
+}
+/*Close 1024*/
+@media screen and (max-width: 1023px) {
+  
+}
+/*Close 1023*/
+@media screen and (max-width: 767px) {
+  
+}
+/*Close 767*/
+@media screen and (max-width: 479px) {
+  
+}
+/*Close 479*/

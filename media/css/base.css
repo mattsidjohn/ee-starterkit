@@ -1,0 +1,102 @@
+ /*----------------------------------------------------
+	Title: 		Base CSS
+	Author:		@thinmatt for @spicreative
+----------------------------------------------------*/
+
+
+/* Base Framework
+---------------------------------------------------- */
+.left       				{float: left;}
+.right      				{float: right;}
+.no-marg    				{margin: 0px !important;}
+.top-marg					{margin-top: 40px !important;}
+.center 					{text-align: center !important;}
+strong, .strong 			{font-weight: bold;}
+strong em, .strong em 		{font-weight: 800;}
+em, .em 					{font-style: italic;}
+.small 						{font-size: 12px !important; line-height: 20px;}
+.wrap						{float: left; width: 100%;}
+img 						{max-height: 100%; max-width: 100%;}
+.no-bull 					{list-style: none;}
+
+hr {
+	border: 0px;
+	border-top: 1px solid #ddd;
+	clear: both;
+	margin: 22px 0px;
+}
+
+
+/* Base Style
+---------------------------------------------------- */
+body {
+
+}
+/* Typography
+---------------------------------------------------- */
+p, ul, ol {
+	color: #6384a1;
+	font-size: 16px;
+	line-height: 24px;
+	margin: 0px 0px 24px;
+}
+
+
+/* Buttons */
+
+/* Navigation
+---------------------------------------------------- */
+nav ul {
+	list-style: none;
+}
+
+/* Forms
+---------------------------------------------------- */
+div.add-wrap {
+	width: 100%;
+}
+div.add-wrap,
+div.add-wrap .st,
+div.add-wrap .zip {
+	float: left;
+}
+div.add-wrap .st {
+	float: left;
+}
+div.add-wrap .zip {
+	float: right;
+	width: 40%;	
+}
+label.l1,
+label.l2 {
+	clear: both;
+	display: block;
+	margin: 0px;
+}
+label.l2 {
+}
+
+input.i1 {
+	margin: 6px 0px 32px;
+	padding: 10px 2%;
+	position: relative;
+	width: 96%;
+}
+input.add {
+	margin: 6px 0px;
+}
+select {
+	margin: 16px 0px 38px;
+}
+select.dd {
+	margin: 16px 0px 0px;
+}
+textarea.t1 {
+	margin: 6px 0px 24px;
+	padding: 10px 1%;
+	width: 98%;
+}
+
+/* Specifc Page Elements
+---------------------------------------------------- */
+
